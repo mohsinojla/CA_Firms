@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { ChangeReviewCard } from './change-review-card'
 import { EmptyState } from '@/components/common/empty-state'
 import { usePendingRealtime } from '@/hooks/use-pending-realtime'
@@ -13,7 +13,15 @@ interface PendingQueueProps {
 
 export function PendingQueue({ initialChanges }: PendingQueueProps) {
   const [changes, setChanges] = useState(initialChanges)
-  usePendingRealtime()
+
+  const handleNewChange = useCallback((change: PendingChangeWithDetails) => {
+    setChanges((prev) => {
+      if (prev.some((c) => c.id === change.id)) return prev
+      return [change, ...prev]
+    })
+  }, [])
+
+  usePendingRealtime(handleNewChange)
 
   const handleReviewed = (id: string) => {
     setChanges((prev) => prev.filter((c) => c.id !== id))

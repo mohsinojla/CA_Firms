@@ -3,44 +3,6 @@ import { auth } from '@clerk/nextjs/server'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { createClient } from '@/lib/supabase/server'
 import { submitChangeSchema } from '@/lib/validations/change'
-import { ADMIN_EMAILS } from '@/lib/constants'
-
-async function notifyAdmins(firmName: string, changeId: string, fieldChanges: Record<string, { old: unknown; new: unknown }>) {
-  const apiKey = process.env.RESEND_API_KEY
-  if (!apiKey) return
-
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://thirsty-wozniak-2eafdc.vercel.app'
-  const reviewUrl = `${appUrl}/admin/pending`
-
-  const changedFields = Object.entries(fieldChanges)
-    .map(([field, { old: oldVal, new: newVal }]) =>
-      `<tr><td style="padding:4px 12px 4px 0;color:#6b7280;font-size:13px">${field}</td><td style="padding:4px 0;font-size:13px"><span style="color:#ef4444">${oldVal ?? '(empty)'}</span> → <span style="color:#10b981">${String(newVal)}</span></td></tr>`
-    )
-    .join('')
-
-  const html = `
-    <div style="font-family:sans-serif;max-width:500px">
-      <h2 style="color:#1e3a5f;margin-bottom:4px">New Edit Suggestion</h2>
-      <p style="color:#6b7280;margin-top:0">A community member submitted an edit for <strong>${firmName}</strong>.</p>
-      <table style="border-collapse:collapse;margin:16px 0">${changedFields}</table>
-      <a href="${reviewUrl}" style="display:inline-block;background:#1e3a5f;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none;font-size:14px">Review in Admin Panel →</a>
-    </div>`
-
-  await Promise.all(
-    ADMIN_EMAILS.map((to) =>
-      fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          from: 'CA Firms Directory <notifications@cafirms.pk>',
-          to,
-          subject: `New edit suggestion for ${firmName}`,
-          html,
-        }),
-      }).catch(() => { /* don't block on email failure */ })
-    )
-  )
-}
 
 export async function POST(req: NextRequest) {
   const { userId } = await auth()
@@ -150,10 +112,6 @@ export async function POST(req: NextRequest) {
 
   // This won't work with upsert for incrementing — use RPC or raw update
   await supabase.rpc('increment_submitted', { p_profile_id: profile.id }).maybeSingle()
-
-  // Notify admins — fire and forget
-  const firmName = (firm as unknown as { firm_name: string }).firm_name
-  notifyAdmins(firmName, change.id, field_changes as Record<string, { old: unknown; new: unknown }>)
 
   return NextResponse.json({ id: change.id, message: 'Change submitted for review' }, { status: 201 })
 }

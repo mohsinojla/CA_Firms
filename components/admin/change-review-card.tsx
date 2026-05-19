@@ -15,7 +15,7 @@ import type { PendingChangeWithDetails } from '@/types/firm'
 
 interface ChangeReviewCardProps {
   change: PendingChangeWithDetails
-  onReviewed: (id: string, action: 'approve' | 'reject') => void
+  onReviewed: (id: string) => void
 }
 
 export function ChangeReviewCard({ change, onReviewed }: ChangeReviewCardProps) {
@@ -46,7 +46,7 @@ export function ChangeReviewCard({ change, onReviewed }: ChangeReviewCardProps) 
       }
 
       toast.success(action === 'approve' ? 'Change approved and applied!' : 'Change rejected.')
-      onReviewed(change.id, action)
+      onReviewed(change.id)
     } catch (err) {
       toast.error(err instanceof Error ? err.message : 'Something went wrong')
     } finally {
