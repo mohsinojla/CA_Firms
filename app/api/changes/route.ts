@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
   const supabasePublic = await createClient()
   const { data: firm, error: firmErr } = await supabasePublic
     .from('firms')
-    .select('id, firm_name')
+    .select('*')
     .eq('id', firm_id)
     .single()
 
@@ -152,7 +152,8 @@ export async function POST(req: NextRequest) {
   await supabase.rpc('increment_submitted', { p_profile_id: profile.id }).maybeSingle()
 
   // Notify admins — fire and forget
-  notifyAdmins(firm.firm_name, change.id, field_changes as Record<string, { old: unknown; new: unknown }>)
+  const firmName = (firm as unknown as { firm_name: string }).firm_name
+  notifyAdmins(firmName, change.id, field_changes as Record<string, { old: unknown; new: unknown }>)
 
   return NextResponse.json({ id: change.id, message: 'Change submitted for review' }, { status: 201 })
 }
