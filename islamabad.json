@@ -1,0 +1,1094 @@
+{
+  "city": "Islamabad",
+  "total_firms": 45,
+  "firms": [
+    {
+      "to_code": "TO-001",
+      "firm_name": "Hussain Rathore & Co.",
+      "approved_wef": "01-APR-2006",
+      "city": "Islamabad",
+      "address": "32, Block 8, School Road, Super Market, F-6 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. EJAZ HUSSAIN RATHORE",
+        "designation": "FCA",
+        "number": "1789"
+      }
+    },
+    {
+      "to_code": "TO-003",
+      "firm_name": "Rafaqat Mansha Mohsin Dossani Masoom & Co.",
+      "approved_wef": "26-JUL-2006",
+      "city": "Islamabad",
+      "address": "74-East, 2nd Floor, Plot B-3, New Blue Area, Blue Area, Jinnah Avenue",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHSIN NADEEM",
+        "designation": "FCA",
+        "number": "2026"
+      }
+    },
+    {
+      "to_code": "TO-008",
+      "firm_name": "Zeeshan Ali & Co.",
+      "approved_wef": "29-JUN-2006",
+      "city": "Islamabad",
+      "address": "6th Floor, State Life Building No.5, Jinnah Avenue, Blue Area",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. HAMID MASOOD",
+        "designation": "FCA",
+        "number": "1811"
+      }
+    },
+    {
+      "to_code": "TO-009",
+      "firm_name": "RSM Avais Hyder Liaquat Nauman",
+      "approved_wef": "26-SEP-2006",
+      "city": "Islamabad",
+      "address": "First Floor, 8th Floor, State Life Building, The Mall, Beaumont Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ADNAN ZAMAN",
+        "designation": "FCA",
+        "number": "1586"
+      }
+    },
+    {
+      "to_code": "TO-021",
+      "firm_name": "Naveed Zafar Ashfaq Jaffery & Co.",
+      "approved_wef": "17-FEB-2007",
+      "city": "Islamabad",
+      "address": "2-A, ATS Center, 30 West Fazal-ul-Haq Road, Main Boulevard, Gulberg III",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SHAHID MOHSIN SHAIKH",
+        "designation": "FCA",
+        "number": "1564"
+      }
+    },
+    {
+      "to_code": "TO-022",
+      "firm_name": "Riaz Ahmad & Co.",
+      "approved_wef": "06-MAR-2007",
+      "city": "Islamabad",
+      "address": "10-B, Saint Mary Park, Fazal-ul-Haq Road, Blue Area",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SHAHID MOHSIN SHAIKH",
+        "designation": "FCA",
+        "number": "1564"
+      }
+    },
+    {
+      "to_code": "TO-028",
+      "firm_name": "Rizwan & Co.",
+      "approved_wef": "30-APR-2007",
+      "city": "Islamabad",
+      "address": "Office No.12,13 & 14, Ahmed Center, Peoples Colony # 2, I-8, Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. RIZWAN BASHIR",
+        "designation": "FCA",
+        "number": "2361"
+      }
+    },
+    {
+      "to_code": "TO-029",
+      "firm_name": "Omer Adil & Co.",
+      "approved_wef": "21-MAY-2007",
+      "city": "Islamabad",
+      "address": "Office 2, First Floor, D-2, Markaz, Gulberg III",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. OMER ADIL",
+        "designation": "FCA",
+        "number": "3392"
+      }
+    },
+    {
+      "to_code": "TO-032",
+      "firm_name": "Malik & Co.",
+      "approved_wef": "23-MAY-2007",
+      "city": "Islamabad",
+      "address": "House 982, Street 21, Phase IV, Bahria Town, I-8, Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ZULFIKAR ALI CAUSER",
+        "designation": "FCA",
+        "number": "4518"
+      }
+    },
+    {
+      "to_code": "TO-037",
+      "firm_name": "Baker Tilly Mehmood Idrees Qamar",
+      "approved_wef": "10-APR-2007",
+      "city": "Islamabad",
+      "address": "Second Floor, Professional Arcade, Mauve Area, G-9/1, F-5/1",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SHAHID FARID",
+        "designation": "FCA",
+        "number": "2845"
+      }
+    },
+    {
+      "to_code": "TO-042",
+      "firm_name": "PKF F.R.A.N.T.S.",
+      "approved_wef": "06-JUL-2010",
+      "city": "Islamabad",
+      "address": "1st Floor, Prgmea House, Canal Road, P. I. A. Housing Society",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. EJAZ HUSSAIN RATHORE",
+        "designation": "FCA",
+        "number": "1789"
+      }
+    },
+    {
+      "to_code": "TO-047",
+      "firm_name": "Waseem Siddiqi & Co.",
+      "approved_wef": "13-JUN-2007",
+      "city": "Islamabad",
+      "address": "240, Street No 54, Sector I-8/3, New Garden Town",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. WASEEM AHMAD SIDDIQI",
+        "designation": "FCA",
+        "number": "1981"
+      }
+    },
+    {
+      "to_code": "TO-061",
+      "firm_name": "Parker Russell-A. J. S.",
+      "approved_wef": "14-DEC-2011",
+      "city": "Islamabad",
+      "address": "Office # 2, 2nd Floor, SAF Centre, 8-Fane Road, Hill View Plaza, Ellander Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD MASOOD SHAHID",
+        "designation": "FCA",
+        "number": "7879"
+      }
+    },
+    {
+      "to_code": "TO-067",
+      "firm_name": "Amir Alam Khan & Co.",
+      "approved_wef": "21-JUN-2007",
+      "city": "Islamabad",
+      "address": "Plot 1, Street 40, I & T Centre, G-10/4, DHA",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. HABIB FAKHRUDDIN",
+        "designation": "FCA",
+        "number": "1279"
+      }
+    },
+    {
+      "to_code": "TO-070",
+      "firm_name": "Faruq Ali & Co.",
+      "approved_wef": "18-JUL-2007",
+      "city": "Islamabad",
+      "address": "C-88, Ground Floor, Shahrah-e-Faisal, Opp. Maritime Museum",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. FASIH-UZ-ZAMAN",
+        "designation": "FCA",
+        "number": "2430"
+      }
+    },
+    {
+      "to_code": "TO-081",
+      "firm_name": "Kaleem & Co.",
+      "approved_wef": "17-JAN-2008",
+      "city": "Islamabad",
+      "address": "402, Progressive Centre, West Lower Ground, Karachi",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUDDASAR KHALID",
+        "designation": "FCA",
+        "number": "5768"
+      }
+    },
+    {
+      "to_code": "TO-085",
+      "firm_name": "IECnet S.K.S.S.S.",
+      "approved_wef": "21-FEB-2008",
+      "city": "Islamabad",
+      "address": "Suite # 1601, Kashif Centre, Legacy Tower, Sadiq Plaza, Marine Faisal Building",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. KHAN MOHAMMAD",
+        "designation": "FCA",
+        "number": "2304"
+      }
+    },
+    {
+      "to_code": "TO-088",
+      "firm_name": "Javaid Jalal Amjad & Co.",
+      "approved_wef": "09-FEB-2008",
+      "city": "Islamabad",
+      "address": "Office No. 02, 5th Floor, Badar- UL- SLAM, Hasrat Mohani Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. BADAR- UL- SLAM",
+        "designation": "FCA",
+        "number": "6240"
+      }
+    },
+    {
+      "to_code": "TO-119",
+      "firm_name": "A. M. Laliwala & Co.",
+      "approved_wef": "18-JUL-2008",
+      "city": "Islamabad",
+      "address": "D-38, Block 5, KDA scheme No. 5, Clifton, Opp. Regional Tax Office",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SALEEM AHMED HUSAIN LALIWALA",
+        "designation": "FCA",
+        "number": "2017"
+      }
+    },
+    {
+      "to_code": "TO-125",
+      "firm_name": "Masoom Akhtar & Co.",
+      "approved_wef": "04-AUG-2008",
+      "city": "Islamabad",
+      "address": "Office 611, 6th Floor, ISE Towers, Jinnah Avenue, Blue Area",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MASOOM AKHTAR",
+        "designation": "FCA",
+        "number": "1954"
+      }
+    },
+    {
+      "to_code": "TO-151",
+      "firm_name": "Riaz & Co.",
+      "approved_wef": "01-APR-2009",
+      "city": "Islamabad",
+      "address": "2, Street 80, G-6/4, 16 Main Gulberg, Abdali Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ARSALAN SALAHUDDIN VARDAG",
+        "designation": "FCA",
+        "number": "3330"
+      }
+    },
+    {
+      "to_code": "TO-155",
+      "firm_name": "Mian Naim Asif Rashid & Co.",
+      "approved_wef": "05-JAN-2010",
+      "city": "Islamabad",
+      "address": "House No. 2, Street 2, Ross Residencia, Canal Bank, Adjacent to MCB House",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SADIQ M. NAIM MIAN",
+        "designation": "FCA",
+        "number": "0491"
+      }
+    },
+    {
+      "to_code": "TO-159",
+      "firm_name": "Munaf Yusuf & Co.",
+      "approved_wef": "10-AUG-2010",
+      "city": "Islamabad",
+      "address": "10/11-B, Zamindara Colony, Hilal Road, F-11/1",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ABDUL RAFAY",
+        "designation": "FCA",
+        "number": "6332"
+      }
+    },
+    {
+      "to_code": "TO-161",
+      "firm_name": "Iqbal Yasir & Co.",
+      "approved_wef": "14-JAN-2011",
+      "city": "Islamabad",
+      "address": "Suite No. 508, 5th Floor, Al-Safa Hights-1, Pacific Centre, F-8, Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ZIA ULLAH",
+        "designation": "FCA",
+        "number": "4218"
+      }
+    },
+    {
+      "to_code": "TO-166",
+      "firm_name": "Asif Associates",
+      "approved_wef": "18-OCT-2011",
+      "city": "Islamabad",
+      "address": "72 West, 2nd Floor, Benazir Plaza, Jinnah Avenue, Near Doctors Hospital",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD ASIF RAZA",
+        "designation": "FCA",
+        "number": "3030"
+      }
+    },
+    {
+      "to_code": "TO-172",
+      "firm_name": "Faisal Latif & Co.",
+      "approved_wef": "17-MAY-2012",
+      "city": "Islamabad",
+      "address": "Suit # 202, 1st Floor, Kashif Plaza, G-8 Markaz, Fazal-e-Haq Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. FAISAL LATIF",
+        "designation": "FCA",
+        "number": "3519"
+      }
+    },
+    {
+      "to_code": "TO-174",
+      "firm_name": "Usmani & Co.",
+      "approved_wef": "10-JUN-2012",
+      "city": "Islamabad",
+      "address": "301, 3rd Office Floor, Technocity Office Towers, I. I. Chundrigar Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "Ms. HINA USMANI",
+        "designation": "FCA",
+        "number": "2060"
+      }
+    },
+    {
+      "to_code": "TO-176",
+      "firm_name": "Rafqat Hussain & Co.",
+      "approved_wef": "31-DEC-2012",
+      "city": "Islamabad",
+      "address": "2nd Floor, Rafi Centre, I. I. Chundrigar Road, Off Shahra-e-Fasial",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ARSALAN SALAHUDDIN VARDAG",
+        "designation": "FCA",
+        "number": "3330"
+      }
+    },
+    {
+      "to_code": "TO-179",
+      "firm_name": "Junaidy Shoaib Asad",
+      "approved_wef": "24-MAY-2013",
+      "city": "Islamabad",
+      "address": "77-A, Street # 45, F-10/4, Near Nursery Flyover",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. FARRUKH VIQARUDDIN JUNAIDY",
+        "designation": "FCA",
+        "number": "1708"
+      }
+    },
+    {
+      "to_code": "TO-186",
+      "firm_name": "J. Khan & Co.",
+      "approved_wef": "23-FEB-2015",
+      "city": "Islamabad",
+      "address": "3-B, 1st Floor Trust Plaza, G.T. Road, VIP Square, I-8 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SAWAIZ BIN AHMAD",
+        "designation": "ACA",
+        "number": "12837"
+      }
+    },
+    {
+      "to_code": "TO-192",
+      "firm_name": "Nauman Javed Hasnain Rashid",
+      "approved_wef": "31-DEC-2015",
+      "city": "Islamabad",
+      "address": "Plot # 193, Street # 1, AL-Hafeez Business Centre, 80-B/111, Korang Road, I-10/3",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD RASHID KHAN",
+        "designation": "FCA",
+        "number": "6237"
+      }
+    },
+    {
+      "to_code": "TO-201",
+      "firm_name": "Alam & Aulakh",
+      "approved_wef": "15-FEB-2017",
+      "city": "Islamabad",
+      "address": "Suit # 5 & 6, Ground Floor, Ross Residencia, New -1 Campus, Phase V, DHA",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. AQEEL ALAM",
+        "designation": "FCA",
+        "number": "8716"
+      }
+    },
+    {
+      "to_code": "TO-206",
+      "firm_name": "Asad Ijaz & Co.",
+      "approved_wef": "14-APR-2017",
+      "city": "Islamabad",
+      "address": "Unit 2, Tariq Heights, Street 73, F-11/1, (Mohammad Bin Qasim Road)",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ASAD IJAZ",
+        "designation": "FCA",
+        "number": "8173"
+      }
+    },
+    {
+      "to_code": "TO-207",
+      "firm_name": "Khilji Rahat Waheed",
+      "approved_wef": "08-MAY-2017",
+      "city": "Islamabad",
+      "address": "3rd Floor, Rafi Centre, Plot No. 13, Street No. 28, Near Nawai Waqt Building",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD WAHEED IQBAL",
+        "designation": "FCA",
+        "number": "4766"
+      }
+    },
+    {
+      "to_code": "TO-208",
+      "firm_name": "Nadeem Safdar & Co.",
+      "approved_wef": "15-FEB-2017",
+      "city": "Islamabad",
+      "address": "Office No. 2, 1st Floor, VIP Square, I-8 Markaz, F-10 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. NADEEM SAFDAR",
+        "designation": "FCA",
+        "number": "2396"
+      }
+    },
+    {
+      "to_code": "TO-210",
+      "firm_name": "Haroon Sulaman & Co.",
+      "approved_wef": "23-AUG-2017",
+      "city": "Islamabad",
+      "address": "First Floor, Hafiz Mart Building, Main Susan Road, Opp. Faizan-e-Madina",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. HAROON SULAMAN",
+        "designation": "FCA",
+        "number": "5178"
+      }
+    },
+    {
+      "to_code": "TO-213",
+      "firm_name": "Umer Farooq & Co.",
+      "approved_wef": "24-AUG-2017",
+      "city": "Islamabad",
+      "address": "7-B, 1st Floor, Trust Plaza, Main Susan Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. UMER FAROOQ",
+        "designation": "FCA",
+        "number": "7038"
+      }
+    },
+    {
+      "to_code": "TO-219",
+      "firm_name": "Obaid Associates",
+      "approved_wef": "30-JUL-2018",
+      "city": "Islamabad",
+      "address": "Flat # 3, 1st Floor, Rawal Arcade, Tufail Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. OBAID-UR-REHMAN",
+        "designation": "FCA",
+        "number": "6042"
+      }
+    },
+    {
+      "to_code": "TO-226",
+      "firm_name": "Qasim Adeel & Co.",
+      "approved_wef": "04-FEB-2019",
+      "city": "Islamabad",
+      "address": "16th Floor, State Life Building # 5, Jinnah Avenue, F-6",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD BIN QASIM",
+        "designation": "FCA",
+        "number": "9780"
+      }
+    },
+    {
+      "to_code": "TO-231",
+      "firm_name": "Z.U.M.I.R.S.",
+      "approved_wef": "22-MAR-2019",
+      "city": "Islamabad",
+      "address": "Office No. 123, 1st Floor, Luxus Mall, Expressway, New Garden Town",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ALE IMRAN SIDDIQI",
+        "designation": "FCA",
+        "number": "2262"
+      }
+    },
+    {
+      "to_code": "TO-243",
+      "firm_name": "Hina Shahrukh & Co.",
+      "approved_wef": "12-JUN-2020",
+      "city": "Islamabad",
+      "address": "Office No. 1, 2nd Floor, Block 6, PECHS, G-11 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "Ms. HINA SHAHRUKH",
+        "designation": "FCA",
+        "number": "7921"
+      }
+    },
+    {
+      "to_code": "TO-247",
+      "firm_name": "Usman Hassan & Co.",
+      "approved_wef": "28-SEP-2020",
+      "city": "Islamabad",
+      "address": "Office No. 22, Second Floor, Rehmat Plaza, I-8 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. USMAN HASSAN",
+        "designation": "FCA",
+        "number": "4287"
+      }
+    },
+    {
+      "to_code": "TO-259",
+      "firm_name": "Ali Akhtar Adnan",
+      "approved_wef": "24-MAY-2021",
+      "city": "Islamabad",
+      "address": "2nd Floor Alam Centre, 66 Shadman Market",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SHAHZAD AKHTAR",
+        "designation": "FCA",
+        "number": "10129"
+      }
+    },
+    {
+      "to_code": "TO-261",
+      "firm_name": "A. Munawar & Co.",
+      "approved_wef": "28-APR-2021",
+      "city": "Islamabad",
+      "address": "2nd Floor Alam Centre, 66 Shadman Market",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUNAWAR ALI",
+        "designation": "FCA",
+        "number": "1962"
+      }
+    },
+    {
+      "to_code": "TO-272",
+      "firm_name": "Agha Mujeeb & Co.",
+      "approved_wef": "13-DEC-2021",
+      "city": "Islamabad",
+      "address": "Suit # 31, Ground Floor, Twin City Plaza, Jinnah Avenue, Blue Area",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. AGHA MUJEEB AHMED KHAN",
+        "designation": "FCA",
+        "number": "3202"
+      }
+    },
+    {
+      "to_code": "TO-274",
+      "firm_name": "Muhammad Umair & Co.",
+      "approved_wef": "08-NOV-2021",
+      "city": "Islamabad",
+      "address": "Office No. 1, 3rd Floor, Huzaifa Center, I-8 Markaz, Farid Kot Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD UMAIR",
+        "designation": "ACA",
+        "number": "9212"
+      }
+    },
+    {
+      "to_code": "TO-276",
+      "firm_name": "Shafiq Umar Daraz & Co.",
+      "approved_wef": "23-DEC-2021",
+      "city": "Islamabad",
+      "address": "1407, ISE Towers, 3rd Floor, Arooj Center, Faizabad Highway",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. UMAR DARAZ",
+        "designation": "FCA",
+        "number": "5137"
+      }
+    },
+    {
+      "to_code": "TO-277",
+      "firm_name": "Murad Ali & Co.",
+      "approved_wef": "27-JAN-2022",
+      "city": "Islamabad",
+      "address": "Office 2, First Street 36, Phase I, Near Daily Musalman, Jinnah Avenue",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MURAD ALI",
+        "designation": "FCA",
+        "number": "4788"
+      }
+    },
+    {
+      "to_code": "TO-286",
+      "firm_name": "Tahseen Rehman & Co.",
+      "approved_wef": "30-MAR-2021",
+      "city": "Islamabad",
+      "address": "Pent House, 5th Floor, Madina Town, Canal Bank Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD TAHSEEN-UR-REHMAN",
+        "designation": "FCA",
+        "number": "9534"
+      }
+    },
+    {
+      "to_code": "TO-289",
+      "firm_name": "Azeemullah & Co.",
+      "approved_wef": "12-SEP-2022",
+      "city": "Islamabad",
+      "address": "Office # 1 & 2, Plot No. 80, E-154/D, Ghazni Lane, Opp. Islamabad High Court, Sector F-11/3",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. AZEEM ULLAH",
+        "designation": "FCA",
+        "number": "7588"
+      }
+    },
+    {
+      "to_code": "TO-293",
+      "firm_name": "G. Ali & Co.",
+      "approved_wef": "26-DEC-2022",
+      "city": "Islamabad",
+      "address": "Suite # 2, Second Floor, MK Arcade, 32-Davis Road, DHA",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. GHULAM ALI",
+        "designation": "ACA",
+        "number": "9312"
+      }
+    },
+    {
+      "to_code": "TO-307",
+      "firm_name": "M. Asif Jamil & Co.",
+      "approved_wef": "15-SEP-2023",
+      "city": "Islamabad",
+      "address": "UG 346-B, Deans Trade Center, Islamia Road, Block H 3",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD ASIF JAMIL",
+        "designation": "FCA",
+        "number": "5604"
+      }
+    },
+    {
+      "to_code": "TO-309",
+      "firm_name": "Sohaib Saleem Dar & Co.",
+      "approved_wef": "04-AUG-2023",
+      "city": "Islamabad",
+      "address": "Plot 395 & 396, Fazal Technology Park, A1 Block, Valencia Town",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SOHAIB SALEEM DAR",
+        "designation": "FCA",
+        "number": "7636"
+      }
+    },
+    {
+      "to_code": "TO-325",
+      "firm_name": "Jamal A. Nasir",
+      "approved_wef": "19-JUL-2024",
+      "city": "Islamabad",
+      "address": "Office No. 14, 2nd Floor, Anique Plaza, I-8 Markaz",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. JAMAL ABDUL NASIR",
+        "designation": "FCA",
+        "number": "6568"
+      }
+    },
+    {
+      "to_code": "TO-341",
+      "firm_name": "A. B. M. & Co.",
+      "approved_wef": "29-APR-2025",
+      "city": "Islamabad",
+      "address": "1st Floor, Plot # 80, St # 34, I & T Centre, Adjacent to MODEK",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. AZEEM ULLAH",
+        "designation": "FCA",
+        "number": "7588"
+      }
+    },
+    {
+      "to_code": "TO-344",
+      "firm_name": "Asad Fouad",
+      "approved_wef": "13-JUN-2025",
+      "city": "Islamabad",
+      "address": "406, Dossul Arcade, Canal Road, Quaid-i-Azam Campus",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ASAD AZAM",
+        "designation": "FCA",
+        "number": "2636"
+      }
+    },
+    {
+      "to_code": "TO-346",
+      "firm_name": "Sattar Rehman & Co.",
+      "approved_wef": "04-JUL-2025",
+      "city": "Islamabad",
+      "address": "M1-M4, Mezzanine Floor, Progressive Plaza, Opp. NBP, Dera Adda, Gol Bagh",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD FAROOQ",
+        "designation": "FCA",
+        "number": "8287"
+      }
+    },
+    {
+      "to_code": "TO-348",
+      "firm_name": "Sibghat & Co.",
+      "approved_wef": "11-JUL-2025",
+      "city": "Islamabad",
+      "address": "Suites 7 & 8, Wahid Chambers, Noor Jahan Road, Wafaqi Colony",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD SIBGHATULLAH KHALID",
+        "designation": "FCA",
+        "number": "5372"
+      }
+    },
+    {
+      "to_code": "TO-349",
+      "firm_name": "Rashid Shuja & Co.",
+      "approved_wef": "11-JUL-2025",
+      "city": "Islamabad",
+      "address": "Office # 204-A, 2nd Floor, Pacific Centre, F-8, Markaz, Shahrah-e-Fatima Jinnah",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "Ms. TAYYABA UMBREEN",
+        "designation": "ACA",
+        "number": "6151"
+      }
+    },
+    {
+      "to_code": "TO-352",
+      "firm_name": "Rizwan Saeed & Co.",
+      "approved_wef": "07-AUG-2025",
+      "city": "Islamabad",
+      "address": "Office No.1, 2nd Floor, VIP square, I-8 Markaz, Civil Lines Quarter",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. RIZWAN SAEED",
+        "designation": "FCA",
+        "number": "7641"
+      }
+    },
+    {
+      "to_code": "TO-355",
+      "firm_name": "A. Sattar & Co.",
+      "approved_wef": "21-AUG-2025",
+      "city": "Islamabad",
+      "address": "Al Razzaq Center, 1st Floor, Near HBL Bank, Trade tower",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ABDUS SATTAR",
+        "designation": "FCA",
+        "number": "2952"
+      }
+    },
+    {
+      "to_code": "TO-365",
+      "firm_name": "Zainab & Company",
+      "approved_wef": "24-NOV-2025",
+      "city": "Islamabad",
+      "address": "Suit 237, 2nd Floor, Luxus Mall, Gulberg Greens, Sector G-10/1",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "Ms. ZAINAB IQBAL BHATTI",
+        "designation": "FCA",
+        "number": "6168"
+      }
+    },
+    {
+      "to_code": "TO-363",
+      "firm_name": "Muhammad Abbas & Co.",
+      "approved_wef": "14-OCT-2025",
+      "city": "Islamabad",
+      "address": "2nd Floor, Jaspal Arcade, Street 22, G-8/4, Khyber Market",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD ABBAS",
+        "designation": "FCA",
+        "number": "9535"
+      }
+    },
+    {
+      "to_code": "TO-364",
+      "firm_name": "Abdullah & Co.",
+      "approved_wef": "27-OCT-2025",
+      "city": "Islamabad",
+      "address": "Lower Ground, Leads Arcade, G13/4, Khyber Market",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. ABDULLAH",
+        "designation": "ACA",
+        "number": "9794"
+      }
+    },
+    {
+      "to_code": "TO-371",
+      "firm_name": "Shahid Safdar & Rehman",
+      "approved_wef": "27-JAN-2026",
+      "city": "Islamabad",
+      "address": "3rd Floor, Zaad Plaza, 1 Abdara Road, University Town",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. SAFDAR SHABIR AWAN",
+        "designation": "FCA",
+        "number": "4746"
+      }
+    },
+    {
+      "to_code": "TO-372",
+      "firm_name": "Tanveer Faisal & Co.",
+      "approved_wef": "12-FEB-2026",
+      "city": "Islamabad",
+      "address": "Office 3144, 3rd Floor, World Trade Centre, Giga Mall, DHA Phase-II",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. KHAWAJA TANVEER ALI MIR",
+        "designation": "FCA",
+        "number": "9368"
+      }
+    },
+    {
+      "to_code": "TO-376",
+      "firm_name": "Munawar Sadaf Associates",
+      "approved_wef": "20-APR-2026",
+      "city": "Islamabad",
+      "address": "Office No. 05, 3rd Floor, Abrar Center, Main Wahdat Road",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUNAWAR HUSSAIN",
+        "designation": "FCA",
+        "number": "1806"
+      }
+    },
+    {
+      "to_code": "TO-378",
+      "firm_name": "Atif Faisal & Co.",
+      "approved_wef": "13-MAY-2026",
+      "city": "Islamabad",
+      "address": "2nd Floor, Plot # 88, Chinar Road, Sector 1-10/3, Opp. Islamabad High Court",
+      "email": null,
+      "contact_number": null,
+      "website": null,
+      "hiring_status": "Not Specified",
+      "mrs": {
+        "name": "MR. MUHAMMAD ATIF AMAN",
+        "designation": "ACA",
+        "number": "9499"
+      }
+    }
+  ]
+}
