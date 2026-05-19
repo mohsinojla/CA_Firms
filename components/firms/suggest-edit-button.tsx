@@ -29,7 +29,7 @@ export function SuggestEditButton({ firm, size = 'sm' }: SuggestEditButtonProps)
     <>
       <Button variant="outline" size={size} onClick={handleClick} className="gap-1.5">
         <Pencil className="h-3.5 w-3.5" />
-        Suggest Edit
+        Contribute Data
       </Button>
 
       {isSignedIn && (

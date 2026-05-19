@@ -1,6 +1,6 @@
 'use client'
 
-import { Building2, MapPin, Calendar, User, Mail, Phone, Globe, Hash } from 'lucide-react'
+import { Building2, MapPin, Calendar, User, Mail, Phone, Globe, Hash, Users } from 'lucide-react'
 import {
   Dialog,
   DialogContent,
@@ -144,9 +144,26 @@ export function FirmDetailDialog({ firm, open, onClose }: FirmDetailDialogProps)
 
         <Separator />
 
+        {/* Clients section */}
+        <div>
+          <div className="flex items-center gap-2 mb-2">
+            <Users className="h-4 w-4 text-muted-foreground" />
+            <h3 className="text-sm font-semibold">Clients</h3>
+            <span className="text-xs bg-navy-50 dark:bg-navy-900/40 text-navy-600 dark:text-navy-400 px-2 py-0.5 rounded-full font-medium">
+              Coming soon
+            </span>
+          </div>
+          <p className="text-xs text-muted-foreground leading-relaxed">
+            Notable clients of this firm will be listed here as the CA community contributes data.
+            This helps articleship seekers make more informed decisions.
+          </p>
+        </div>
+
+        <Separator />
+
         <div className="flex items-center justify-between">
           <p className="text-xs text-muted-foreground">
-            See an error or missing info?
+            Know something missing or incorrect?
           </p>
           <SuggestEditButton firm={firm} />
         </div>

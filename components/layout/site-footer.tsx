@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Building2 } from 'lucide-react'
+import Image from 'next/image'
 import { CITIES } from '@/lib/constants'
 
 export function SiteFooter() {
@@ -9,9 +9,13 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
             <div className="flex items-center gap-2.5 mb-3">
-              <div className="flex h-7 w-7 items-center justify-center rounded-md bg-navy-800 dark:bg-navy-700">
-                <Building2 className="h-3.5 w-3.5 text-white" />
-              </div>
+              <Image
+                src="/icap-logo.jpg"
+                alt="ICAP"
+                width={28}
+                height={28}
+                className="rounded-md object-contain"
+              />
               <span className="text-sm font-bold text-navy-900 dark:text-white">CA Firms Directory</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
@@ -53,10 +57,13 @@ export function SiteFooter() {
 
         <div className="mt-8 border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} CA Firms Directory. Community-maintained.
+            © {new Date().getFullYear()} CA Firms Directory. Data sourced from ICAP public registry.
           </p>
           <p className="text-xs text-muted-foreground">
-            Data sourced from ICAP public registry.
+            Created and maintained by{' '}
+            <span className="font-medium text-foreground">Mohsin Raza Ojla</span>
+            {' '}and{' '}
+            <span className="font-medium text-foreground">Asad Raza Ojla</span>
           </p>
         </div>
       </div>

@@ -1,9 +1,10 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
-import { Building2, Users, LayoutDashboard } from 'lucide-react'
+import { Users, LayoutDashboard } from 'lucide-react'
 import { DarkModeToggle } from '@/components/common/dark-mode-toggle'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -21,9 +22,13 @@ export function SiteHeader({ isAdmin = false }: SiteHeaderProps) {
       <div className="container flex h-16 items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 shrink-0">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-navy-800 dark:bg-navy-700">
-            <Building2 className="h-4 w-4 text-white" />
-          </div>
+          <Image
+            src="/icap-logo.jpg"
+            alt="ICAP"
+            width={36}
+            height={36}
+            className="rounded-md object-contain"
+          />
           <div className="hidden sm:block">
             <span className="text-sm font-bold text-navy-900 dark:text-white tracking-tight">
               CA Firms
@@ -68,9 +73,9 @@ export function SiteHeader({ isAdmin = false }: SiteHeaderProps) {
 
           {isAdmin && (
             <Button variant="outline" size="sm" asChild>
-              <Link href="/admin" className="flex items-center gap-1.5">
+              <Link href="/admin/pending" className="flex items-center gap-1.5">
                 <LayoutDashboard className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline">Admin</span>
+                <span className="hidden sm:inline">Review Changes</span>
               </Link>
             </Button>
           )}
