@@ -33,7 +33,7 @@ export function LeaderboardTable({ contributors }: LeaderboardTableProps) {
           </tr>
         </thead>
         <tbody>
-          {contributors.map((c, i) => {
+          {contributors.filter((c) => c.profile != null).map((c, i) => {
             const rank = i + 1
             const approvalRate = c.total_submitted > 0
               ? Math.round((c.total_approved / c.total_submitted) * 100)
@@ -54,13 +54,13 @@ export function LeaderboardTable({ contributors }: LeaderboardTableProps) {
                 <td className="px-4 py-3.5">
                   <div className="flex items-center gap-3">
                     <Avatar className="h-9 w-9">
-                      <AvatarImage src={c.profile.avatar_url ?? undefined} />
-                      <AvatarFallback>{getInitials(c.profile.full_name)}</AvatarFallback>
+                      <AvatarImage src={c.profile?.avatar_url ?? undefined} />
+                      <AvatarFallback>{getInitials(c.profile?.full_name ?? null)}</AvatarFallback>
                     </Avatar>
                     <div>
                       <div className="flex items-center gap-2">
                         <p className="text-sm font-medium leading-tight">
-                          {c.profile.full_name ?? 'Anonymous'}
+                          {c.profile?.full_name ?? 'Anonymous'}
                         </p>
                         {RANK_LABELS[rank] && (
                           <Badge variant="gold" className="text-[10px] px-1.5 py-0">
@@ -68,7 +68,7 @@ export function LeaderboardTable({ contributors }: LeaderboardTableProps) {
                           </Badge>
                         )}
                       </div>
-                      <p className="text-xs text-muted-foreground">{c.profile.email}</p>
+                      <p className="text-xs text-muted-foreground">{c.profile?.email}</p>
                     </div>
                   </div>
                 </td>
