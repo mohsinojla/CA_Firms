@@ -26,6 +26,7 @@ export const EDITABLE_FIELDS = [
   'website',
   'address',
   'hiring_status',
+  'clients',
 ] as const
 
 export type EditableField = (typeof EDITABLE_FIELDS)[number]
@@ -36,4 +37,5 @@ export const FIELD_LABELS: Record<EditableField, string> = {
   website: 'Website',
   address: 'Address',
   hiring_status: 'Hiring Status',
+  clients: 'Clients',
 }

@@ -44,6 +44,7 @@ export function SuggestEditDialog({ firm, open, onClose }: SuggestEditDialogProp
     website: firm.website ?? '',
     address: firm.address ?? '',
     hiring_status: (firm.hiring_status as 'Hiring' | 'Not Hiring' | 'Not Specified') ?? 'Not Specified',
+    clients: firm.clients ?? '',
   }
 
   const {
@@ -194,6 +195,20 @@ export function SuggestEditDialog({ firm, open, onClose }: SuggestEditDialogProp
                   <SelectItem value="Not Specified">Not Specified</SelectItem>
                 </SelectContent>
               </Select>
+            </div>
+
+            <div className="space-y-1.5">
+              <Label htmlFor="clients">{FIELD_LABELS.clients}</Label>
+              <Input
+                id="clients"
+                placeholder="PTCL, OGDCL, HBL"
+                maxLength={60}
+                {...register('clients')}
+              />
+              <p className="text-xs text-muted-foreground">
+                Comma-separated, max 60 characters. Help articleship seekers evaluate firms.
+              </p>
+              {errors.clients && <p className="text-xs text-destructive">{errors.clients.message}</p>}
             </div>
           </div>
 

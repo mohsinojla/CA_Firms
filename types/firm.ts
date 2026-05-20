@@ -18,6 +18,7 @@ export type FieldChanges = {
   website?: FieldChange
   address?: FieldChange
   hiring_status?: FieldChange
+  clients?: FieldChange
 }
 
 export type PendingChangeWithDetails = PendingChange & {

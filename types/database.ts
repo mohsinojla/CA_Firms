@@ -79,6 +79,7 @@ export interface Database {
           contact_number: string | null
           website: string | null
           hiring_status: string
+          clients: string | null
           mrs_name: string | null
           mrs_designation: string | null
           mrs_number: string | null
@@ -98,6 +99,7 @@ export interface Database {
           contact_number?: string | null
           website?: string | null
           hiring_status?: string
+          clients?: string | null
           mrs_name?: string | null
           mrs_designation?: string | null
           mrs_number?: string | null
@@ -117,6 +119,7 @@ export interface Database {
           contact_number?: string | null
           website?: string | null
           hiring_status?: string
+          clients?: string | null
           mrs_name?: string | null
           mrs_designation?: string | null
           mrs_number?: string | null

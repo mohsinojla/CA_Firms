@@ -149,14 +149,23 @@ export function FirmDetailDialog({ firm, open, onClose }: FirmDetailDialogProps)
           <div className="flex items-center gap-2 mb-2">
             <Users className="h-4 w-4 text-muted-foreground" />
             <h3 className="text-sm font-semibold">Clients</h3>
-            <span className="text-xs bg-navy-50 dark:bg-navy-900/40 text-navy-600 dark:text-navy-400 px-2 py-0.5 rounded-full font-medium">
-              Coming soon
-            </span>
           </div>
-          <p className="text-xs text-muted-foreground leading-relaxed">
-            Notable clients of this firm will be listed here as the CA community contributes data.
-            This helps articleship seekers make more informed decisions.
-          </p>
+          {firm.clients ? (
+            <div className="flex flex-wrap gap-1.5">
+              {firm.clients.split(',').map((client) => client.trim()).filter(Boolean).map((client) => (
+                <span
+                  key={client}
+                  className="text-xs bg-navy-50 dark:bg-navy-900/40 text-navy-700 dark:text-navy-300 px-2 py-0.5 rounded-full border border-navy-200 dark:border-navy-700"
+                >
+                  {client}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <p className="text-xs text-muted-foreground leading-relaxed">
+              No clients listed yet. Help the community by contributing this firm&apos;s notable clients.
+            </p>
+          )}
         </div>
 
         <Separator />

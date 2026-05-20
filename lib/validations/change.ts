@@ -14,6 +14,7 @@ export const submitChangeSchema = z.object({
       website: fieldChangeSchema.optional(),
       address: fieldChangeSchema.optional(),
       hiring_status: fieldChangeSchema.optional(),
+      clients: fieldChangeSchema.optional(),
     })
     .refine(
       (data) => Object.keys(data).length > 0,

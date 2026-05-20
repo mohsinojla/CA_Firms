@@ -29,6 +29,12 @@ export const firmEditSchema = z.object({
     .enum(['Hiring', 'Not Hiring', 'Not Specified'])
     .optional()
     .nullable(),
+  clients: z
+    .string()
+    .max(60, 'Max 60 characters — use comma-separated names')
+    .optional()
+    .or(z.literal(''))
+    .nullable(),
 })
 
 export type FirmEditInput = z.infer<typeof firmEditSchema>
